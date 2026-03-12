@@ -117,7 +117,7 @@ function getwork_request($method, $endpoint, $data = [], $query_params = []) {
 }
 
 // ────────────────────────────────────────────────
-// Обёртки для конкретных методов (без передачи api-ключа)
+// Обёртки для конкретных методов
 // ────────────────────────────────────────────────
 
 function getwork_onboarding_sign_oferta($phone, $code) {
